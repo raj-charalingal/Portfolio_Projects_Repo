@@ -8,6 +8,7 @@ body {
     background: url("images/header-bg-new.jpg");
     width: 100%;
     background-size: cover;
+   
 }
 
 .top-bar{
@@ -75,25 +76,33 @@ body {
     display: -ms-flexbox;
     display: flex;
     padding: 15% 0;
+
 }
 .banner-text-items{
-    color: #fff;
+    color: #FEF9C7;
     margin: auto;
     text-align: center;
     width: 50%;
+    mix-blend-mode: luminosity;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+       
 }
 .banner-text-items h2{
+    
     font-size: 3em;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 .banner-text-items p{
-    font-size: 18px;
+    
+    transform: translateY(-50%);
+    font-size: 19px;
+    font-weight: 900;
 }
 
-/*main-content*/
-
-.main-content{
+/*-----------------------*/
+.main-content {
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -104,21 +113,40 @@ body {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding 5% 0;
+    color: #fff;
 }
-
-.main1{
+.main{
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     padding: 3%;
     text-align: center;
+    box-shadow: 0 3px 3px rgba(0,0,0,2);
+    mix-blend-mode: overlay;
 }
-
+.flex {
+    flex: 1;
+}
+.hover:hover {
+    flex: 4;
+}
+  /* colours */
+  .main-profile-box {
+    background-color: #2D4159;
+  }
+  .main-objective-box {
+    background-color: #1F2833;
+  }
+  .main-motto-box {
+    
+    background-color: #0B0C10;
+  }
+    /*-----------------------*/
 /*contact*/
 
 .contact{
-    background: url("images/contact-bg-2.jpg");
+    background: url("images/contact-bg.jpg");
     padding: 80px 0;
     position: relative;
     z-index: 1;
@@ -157,14 +185,20 @@ body {
 }
 
 .contact-items a{
-    background: #da4b29;
+   background-color: transparent;
     color: #fff;
     display: block;
     font-size: 20px;
+    font-weight: 900;
     margin-top: 25px;
     padding: 15px 80px;
     text-decoration: none;
     text-transform: uppercase;
+    line-height: 1.5;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    box-shadow: 0 3px 10px rgba(0,0,10,10);
+    mix-blend-mode: lighten;
 }
 
 @media all and(max-width:500px){
@@ -203,5 +237,10 @@ body {
         }
     }
 }
+
+
+
+
+
 
 
