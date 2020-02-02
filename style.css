@@ -83,20 +83,16 @@ body {
     margin: auto;
     text-align: center;
     width: 50%;
-    mix-blend-mode: luminosity;
     text-shadow: 0 5px 10px rgba(0,0,0,1);
        
 }
 .banner-text-items h2{
-    
     font-size: 3em;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 .banner-text-items p{
-    
-    transform: translateY(-50%);
-    font-size: 19px;
+    font-size: 1em;
     font-weight: 900;
 }
 
