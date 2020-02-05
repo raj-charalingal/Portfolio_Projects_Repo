@@ -3,6 +3,35 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+header{
+    /* box-sizing: border-box; */
+    background-color: #24252A;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
 
 .banner{
     background: url("images/header-bg-new.jpg");
@@ -32,6 +61,7 @@ body {
     padding: 10px;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
     
 }
 
@@ -79,7 +109,7 @@ body {
 
 }
 .banner-text-items{
-    color: #FEF9C7;
+    color: #fff;
     margin: auto;
     text-align: center;
     width: 50%;
@@ -206,7 +236,7 @@ body {
         flex-direction: column;
         text-align: center;
         .logo{
-            padding: 18px 0 0;
+            padding: 20px 0 0;
         }
         .menu ul{
             -webkit-box-orient: vertical;
@@ -216,7 +246,7 @@ body {
             margin-top: 0;
         }
         .menu ul li{
-            padding: 5px;
+            padding: 10px;
         }
         .banner-text-items{
             width: 100%;
